@@ -12,26 +12,22 @@
             padding: 0;
             background: #f5f5f5;
         }
-
         header {
             background: #003366;
             color: white;
             padding: 2em 1em;
             text-align: center;
         }
-
             header h1 {
                 margin: 0;
                 font-size: 2.5em;
             }
-
         nav {
             display: flex;
             justify-content: space-between;
             background: #005599;
             padding: 1em;
         }
-
             nav a {
                 color: white;
                 text-decoration: none;
@@ -39,12 +35,10 @@
                 font-weight: bold;
                 padding: 0.5em 1em;
             }
-
                 nav a:hover {
                     background: #007acc;
                     border-radius: 5px;
                 }
-
         .hero {
             background-image: url('https://a.d-cd.net/b3106a1s-1920.jpg');
             background-size: cover;
@@ -56,17 +50,14 @@
             color: white;
             text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
         }
-
             .hero h2 {
                 font-size: 2.5em;
             }
-
         .content {
             max-width: 1200px;
             margin: 0 auto;
             padding: 2em;
         }
-
         .section {
             margin-bottom: 2em;
             background: white;
@@ -74,13 +65,11 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
             .section img {
                 width: 100%;
                 border-radius: 8px;
                 margin-top: 1em;
             }
-
         footer {
             background: #003366;
             color: white;
@@ -113,7 +102,6 @@
     <p>Вы можете приобрести билеты онлайн через нашу платформу. Выберите маршрут, дату и класс обслуживания, чтобы забронировать поездку.</p>
     <div style="margin-top: 2em; background: #f1f1f1; padding: 1.5em; border-radius: 8px;">
         <h3>Поиск и заказ билетов</h3>
-
         <form action="#" method="get" style="display: flex; flex-wrap: wrap; gap: 1em;">
             <div style="flex: 1;">
                 <label for="departure" style="display: block; margin-bottom: 0.5em;">Откуда:</label>
