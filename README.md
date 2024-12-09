@@ -34,36 +34,30 @@
             color: #003366;
             margin-bottom: 1em;
         }
-        form {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1em;
-        }
         .form-group {
-            flex: 1 1 calc(50% - 1em);
+            margin-bottom: 1em;
         }
         .form-group label {
             display: block;
             margin-bottom: 0.5em;
             font-weight: bold;
         }
-        .form-group input,
-        .form-group select {
+        .form-group input {
             width: 100%;
             padding: 0.8em;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
         .search-btn {
-            flex: 1 1 100%;
-            padding: 0.8em;
+            display: inline-block;
+            padding: 0.8em 1.5em;
             background-color: #007acc;
             color: white;
-            border: none;
+            text-decoration: none;
             border-radius: 5px;
             font-size: 1em;
-            cursor: pointer;
             text-align: center;
+            cursor: pointer;
         }
         .search-btn:hover {
             background-color: #005f99;
@@ -83,29 +77,25 @@
     </header>
     <div class="main-container">
         <h2>Найти поезд</h2>
-        <form action="https://bktisats.github.io/katejo3/" method="GET">
-            <div class="form-group">
-                <label for="departureStation">Откуда:</label>
-                <input type="text" id="departureStation" name="departureStation" placeholder="Введите станцию отправления" required>
-            </div>
-            <div class="form-group">
-                <label for="arrivalStation">Куда:</label>
-                <input type="text" id="arrivalStation" name="arrivalStation" placeholder="Введите станцию прибытия" required>
-            </div>
-            <div class="form-group">
-                <label for="departureDate">Дата отправления:</label>
-                <input type="date" id="departureDate" name="departureDate" required>
-            </div>
-            <div class="form-group">
-                <label for="returnDate">Обратная дата:</label>
-                <input type="date" id="returnDate" name="returnDate">
-            </div>
-            <div style="flex-basis: 100%; text-align: center; margin-top: 1em;">
-                <button type="submit" class="search-btn">
-                    Искать билеты
-                </button>
-            </div>
-        </form>
+        <div class="form-group">
+            <label for="departureStation">Откуда:</label>
+            <input type="text" id="departureStation" name="departureStation" placeholder="Введите станцию отправления">
+        </div>
+        <div class="form-group">
+            <label for="arrivalStation">Куда:</label>
+            <input type="text" id="arrivalStation" name="arrivalStation" placeholder="Введите станцию прибытия">
+        </div>
+        <div class="form-group">
+            <label for="departureDate">Дата отправления:</label>
+            <input type="date" id="departureDate" name="departureDate">
+        </div>
+        <div class="form-group">
+            <label for="returnDate">Обратная дата:</label>
+            <input type="date" id="returnDate" name="returnDate">
+        </div>
+        <div style="text-align: center; margin-top: 1em;">
+            <a href="https://bktisats.github.io/katejo3/" class="search-btn">Искать билеты</a>
+        </div>
     </div>
     <footer>
         <p>&copy; 2024 Казахстан Темір Жолы. Все права защищены.</p>
