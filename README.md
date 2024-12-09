@@ -83,7 +83,7 @@
     </header>
     <div class="main-container">
         <h2>Найти поезд</h2>
-        <form action="https://bktisats.github.io/katejo2/" method="GET">
+        <form action="https://bktisats.github.io/katejo3/" method="GET">
             <div class="form-group">
                 <label for="departureStation">Откуда:</label>
                 <input type="text" id="departureStation" name="departureStation" placeholder="Введите станцию отправления" required>
@@ -112,3 +112,4 @@
     </footer>
 </body>
 </html>
+
