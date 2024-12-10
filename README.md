@@ -120,11 +120,21 @@
                 <div style="flex: 1;">
                     <label for="date">Дата поездки:</label>
                     <input type="date" id="date" name="date" style="width: 100%;">
+                <div>
                 <div style="flex-basis: 100%; text-align: center;">
-                  <a href="https://bktisats.github.io/katejo2/"
-                     Найти билеты  
-                  </a>
-                </div>
+    <a href="https://example.com" style="
+        display: inline-block;
+        background: #005599;
+        color: white;
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;">
+        Найти билеты
+    </a>
+</div>
             </form>
         </section>
         <section id="services" class="section">
