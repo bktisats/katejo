@@ -120,7 +120,6 @@
                 <div style="flex: 1;">
                     <label for="date">Дата поездки:</label>
                     <input type="date" id="date" name="date" style="width: 100%;">
-                </div>
                 <div style="flex-basis: 100%; text-align: center;">
                   <a href="https://bktisats.github.io/katejo2/"
                      Найти билеты  
