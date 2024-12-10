@@ -117,7 +117,8 @@
             <div style="flex-basis: 100%; text-align: center; margin-top: 1em;">
                 <button type="submit" style="background: #005599; color: white; padding: 0.8em 1.5em; border: none; border-radius: 5px; font-size: 1em; cursor: pointer;">
             <div style="text-align: center; margin-top: 1em;">
-                <a href="https://bktisats.github.io/katejo2/" class="search-btn">Найти билеты</a>         
+                <a href="https://bktisats.github.io/katejo2/" 
+                    class="search-btn">Найти билеты</a>         
             </div>        
         <section id="services" class="section">
             <h2>История</h2>
