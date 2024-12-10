@@ -122,7 +122,9 @@
                     <input type="date" id="date" name="date" style="width: 100%;">
                 </div>
                 <div style="flex-basis: 100%; text-align: center;">
-                    <button type="submit">Найти билеты</button>
+                  <a href="https://bktisats.github.io/katejo2/"
+                     Найти билеты  
+                  </a>
                 </div>
             </form>
         </section>
